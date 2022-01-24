@@ -39,5 +39,5 @@
     "email": "bpoint.lee@gmail.com"
   }],
   "name": "@bpframework/middleware-log4js",
-  "version": "0.0.1"
+  "version": "0.0.3"
 }

@@ -12,7 +12,7 @@ import initiator from './libs/initiator';
 export const name = 'middleware-logger';
 
 export const middleware = {
-  type: 'koa',
+  type: '',
   name: name,
   initiator,
 };
