@@ -1,0 +1,43 @@
+{
+  "description": "log4js middleware of bpframework",
+  "dependencies": {
+    "log4js": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  },
+  "peerDependencies": {
+    "bpframework": ">=0.3.15"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=10"
+  },
+  "homepage": "https://github.com/bpcloud/middleware-log4js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bpcloud/middleware-log4js.git"
+  },
+  "scripts": {
+    "prepublishOnly": "tsc --build tsconfig.json",
+    "build": "tsc --build tsconfig.json"
+  },
+  "keywords": [
+    "bpframework",
+    "log4js"
+  ],
+  "files": [
+    "dist",
+    "types",
+    "index.js"
+  ],
+  "types": "types/index.d.ts",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "maintainers": [{
+    "name": "brainpoint",
+    "email": "bpoint.lee@gmail.com"
+  }],
+  "name": "@bpframework/middleware-log4js",
+  "version": "0.0.1"
+}
