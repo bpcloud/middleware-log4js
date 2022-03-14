@@ -31,5 +31,5 @@ bp:
 #### Usage.
 
 ```
-Application.getLogger().info(...);
+getLogger().info(...);
 ```

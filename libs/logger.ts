@@ -10,6 +10,7 @@
 import 'febs';
 import * as log4js from 'log4js';
 import * as path from 'path';
+import { Application } from 'bpframework';
 
 export const logger = {
   /**
@@ -77,6 +78,10 @@ function debug(...msg: any[]) {
  * @return:
  */
 function install(name: string, logDir: string = null) {
+  global.getLogger = function () {
+    return Application.getLogger();
+  };
+
   let cfg;
 
   if (!logDir) {

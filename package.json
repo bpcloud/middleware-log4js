@@ -1,6 +1,7 @@
 {
   "description": "log4js middleware of bpframework",
   "dependencies": {
+    "bpframework": "^0.3.22",
     "log4js": "^6.4.2"
   },
   "devDependencies": {
@@ -39,5 +40,5 @@
     "email": "bpoint.lee@gmail.com"
   }],
   "name": "@bpframework/middleware-log4js",
-  "version": "0.0.4"
+  "version": "0.0.6"
 }
