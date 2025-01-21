@@ -1,11 +1,11 @@
 {
   "description": "log4js middleware of bpframework",
   "dependencies": {
-    "bpframework": "^0.3.22",
+    "bpframework": ">=0.3.15",
     "log4js": "^6.4.2"
   },
   "devDependencies": {
-    "@types/node": "^17.0.8"
+    "@types/node": "^22.13.10"
   },
   "peerDependencies": {
     "bpframework": ">=0.3.15"
@@ -35,10 +35,12 @@
   "types": "types/index.d.ts",
   "license": "MIT",
   "main": "./dist/index.js",
-  "maintainers": [{
-    "name": "brainpoint",
-    "email": "bpoint.lee@gmail.com"
-  }],
+  "maintainers": [
+    {
+      "name": "brainpoint",
+      "email": "bpoint.lee@gmail.com"
+    }
+  ],
   "name": "@bpframework/middleware-log4js",
-  "version": "0.0.6"
+  "version": "0.0.8"
 }

@@ -34,9 +34,13 @@ function getMsg(...msg: any[]) {
         m += e;
       } else if (t === 'function') {
         m += e.toString();
+      } else if (Array.isArray(e)) {
+        for (let j = 0; j < e.length; j++) {
+          m += e[j] ? e[j].toString() : '';
+        }
       } else {
         try {
-          m += JSON.stringify(e);
+          m += e ? JSON.stringify(e) : '';
         } catch (ee) {
           m += '[JSON.stringify error]';
         }
